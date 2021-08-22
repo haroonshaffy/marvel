@@ -1,5 +1,5 @@
 function initializeMap() {
-    var myLatlng = { lat: 0, lng: 0 };
+    var myLatlng = { lat: 40.7128, lng: 74.0060 };
     var map = new google.maps.Map(
         document.getElementById("map"),
         {
@@ -7,14 +7,4 @@ function initializeMap() {
             center: myLatlng,
         }
     );
-
-    map.addListener("click", (e) => {
-        var m = new google.maps.Marker({
-            position: e.latLng,
-            map,
-        });
-        map.setZoom(4);
-        map.setCenter(m.getPosition());
-
-    });
 }
