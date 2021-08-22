@@ -7,29 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Marvel Comics API Search - Character</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Marvel Comics API Search - Creator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body onload="character()">
+<body onload="comicCreator()" class="comic-creator__body">
     <div class="jumbotron">
-        <div class="container">
-            <h1 class="header-main-title">Marvel Comics Character Search</h1>
-            <form id="connectionForm">
-                <div class="form-group">
-                    <input required type="text" name="name" id="name" class="form-control character-search-box" placeholder="(Ex. Hulk, Iron Man, Spider-Man, etc...)">
-                </div>
-                <input type="submit" value="Search!" class="btn btn-danger mb-2 float-right search-character-button">
-            </form>
-        </div>
-    </div>
-    <div class="container" id="contentContainer">
-        <div class="d-flex align-items-center" id="characterSpinnerSection"></div>
-        <div class="d-flex align-items-center" id="comicsSpinnerSection"></div>
-        <section id="characterSection"></section>
-        <section id="comicSection"></section>
-    </div>
-    <script src="./main.js"></script>
+        <a href="./index.php">Home</a>
+        <div class="d-flex align-items-center container" id="comicCreatorSpinnerSection"></div>
+        <div class="d-flex align-items-center container" id="comicCreatorSpinnerSection1"></div>
+        <div class="container comic-creator__container" id="comicCreatorContainerDiv">
+        </div> <!-- /container -->
+    </div> <!-- /jumbotron -->
+    <script src="main.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
