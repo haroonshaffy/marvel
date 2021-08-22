@@ -7,16 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Marvel Comics API Search - Creator</title>
+    <title>Avengers Headquarters</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./headquarters.css">
 </head>
 
 <body>
-    <h1>Avengers Headquarters</h1>
+    <h2>Avengers Headquarters</h2>
     <div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpReV-m_fjfvLzOdS6ml9-1SQcr3h5Bj8&callback=initializeMap&libraries=&v=weekly" async defer></script>
-    <script src="main.js"></script>
     <script src="./headquarters.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
