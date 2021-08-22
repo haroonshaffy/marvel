@@ -2,6 +2,8 @@
     ## Assignment Name - API Project
     ## Name - Haroon Shaffiulla
     ## Student number - N01414924
+    
+- [x] [Link to the application](https://marvel-haroon.herokuapp.com/)
 
 
 1. ## API's used -
