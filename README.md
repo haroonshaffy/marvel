@@ -14,5 +14,5 @@
 
 1. ## Future Iteration
     *I intend to flush out the website completely and list the comics and movies that this character is a part of using -
-    [GET /v1/public/characters/{characterId}/comics]
+    [GET /v1/public/characters/{characterId}/comics] and 
     [GET /v1/public/characters/{characterId}/series]
