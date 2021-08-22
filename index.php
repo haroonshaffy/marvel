@@ -29,6 +29,9 @@
         <section id="characterSection"></section>
         <section id="comicSection"></section>
     </div>
+    <div>
+        <h2>Avengers assemble at:</h2>
+    </div>
     <script src="./main.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
