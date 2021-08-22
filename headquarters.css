@@ -2,3 +2,7 @@
     width:500px;
     height:500px; /* height is required */
   }
+
+#title {
+    color: whitesmoke;
+}
