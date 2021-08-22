@@ -15,7 +15,7 @@
 <body>
     <h1>Avengers Headquarters</h1>
     <div id="map"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrmeAuwHOXeBw-x7J2Ls8mgHLESnsPhM0&callback=initializeMap&libraries=&v=weekly" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpReV-m_fjfvLzOdS6ml9-1SQcr3h5Bj8&callback=initializeMap&libraries=&v=weekly" async defer></script>
     <script src="main.js"></script>
     <script src="./headquarters.js"></script>
     <!-- Optional JavaScript -->
