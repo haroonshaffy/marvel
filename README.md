@@ -13,6 +13,6 @@
     * On the home page, there is a link that says Avengers Assemble at:. This page makes use of the Maps JavaScript API
 
 1. ## Future Iteration
-    * I intend to flush out the website completely and list the comics and movies that this character is a part of using -
+    *I intend to flush out the website completely and list the comics and movies that this character is a part of using -
     [GET /v1/public/characters/{characterId}/comics]
     [GET /v1/public/characters/{characterId}/series]
