@@ -14,11 +14,12 @@
 <body onload="character()">
     <div class="jumbotron">
         <div class="container">
-            <h1 class="header-main-title">Marvel Comics Character</h1>
+            <h1 class="header-main-title">Marvel Comics Character Search</h1>
             <form id="connectionForm">
                 <div class="form-group">
                     <input required type="text" name="name" id="name" class="form-control character-search-box" placeholder="(Ex. Hulk, Iron Man, Spider-Man, etc...)">
                 </div>
+                <input type="submit" value="Avengers Assemble at:" class="btn btn-primary mb-2 float-right search-character-button">
                 <input type="submit" value="Search!" class="btn btn-danger mb-2 float-right search-character-button">
             </form>
         </div>
