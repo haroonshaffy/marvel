@@ -15,7 +15,7 @@
     <div class="jumbotron">
         <div class="container">
             <nav>
-                <div class="container-fluid">
+                <div>
                     <a class="navbar-brand" href="#">Avengers Assemble at:</a>
                 </div>
             </nav>
