@@ -7,4 +7,14 @@ function initializeMap() {
             center: myLatlng,
         }
     );
+
+    map.addListener("click", (e) => {
+        var m = new google.maps.Marker({
+            position: e.latLng,
+            map,
+        });
+        map.setZoom(4);
+        map.setCenter(m.getPosition());
+
+    });
 }
