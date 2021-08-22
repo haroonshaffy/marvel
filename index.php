@@ -14,7 +14,7 @@
 <body onload="character()">
     <div class="jumbotron">
         <div class="container">
-            <nav class="navbar navbar-light bg-light">
+            <nav>
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Avengers Assemble at:</a>
                 </div>
@@ -35,9 +35,6 @@
         <div class="d-flex align-items-center" id="comicsSpinnerSection"></div>
         <section id="characterSection"></section>
         <section id="comicSection"></section>
-    </div>
-    <div class="container" id="contentContainer">
-        <h2>Avengers assemble at:</h2>
     </div>
 
     <script src="./main.js"></script>
