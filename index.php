@@ -14,11 +14,9 @@
 <body onload="character()">
     <div class="jumbotron">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+                    <a class="navbar-brand" href="#">Avengers Assemble at:</a>
                 </div>
             </nav>
 
