@@ -1,3 +1,6 @@
+<!-- FOR A LATER ITERATION TO ADD IN THE PORTFOLIO -->
+<!-- ********************************************* -->
+
 <!DOCTYPE html>
 <html lang="en">
 
