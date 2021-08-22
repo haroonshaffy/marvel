@@ -14,7 +14,7 @@
 <body onload="character()">
     <div class="jumbotron">
         <div class="container">
-            <h1 class="header-main-title">Marvel Comics Character Search</h1>
+            <h1 class="header-main-title">Marvel Comics Character</h1>
             <form id="connectionForm">
                 <div class="form-group">
                     <input required type="text" name="name" id="name" class="form-control character-search-box" placeholder="(Ex. Hulk, Iron Man, Spider-Man, etc...)">
