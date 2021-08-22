@@ -14,6 +14,15 @@
 <body onload="character()">
     <div class="jumbotron">
         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </div>
+            </nav>
+
+
             <h1 class="header-main-title">Marvel Comics Character Search</h1>
             <form id="connectionForm">
                 <div class="form-group">
@@ -32,9 +41,7 @@
     <div class="container" id="contentContainer">
         <h2>Avengers assemble at:</h2>
     </div>
-    <div>
-        <a href="#">Avengers Assemble at :</a>
-    </div>
+
     <script src="./main.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
