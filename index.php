@@ -19,7 +19,6 @@
                 <div class="form-group">
                     <input required type="text" name="name" id="name" class="form-control character-search-box" placeholder="(Ex. Hulk, Iron Man, Spider-Man, etc...)">
                 </div>
-                <input type="submit" value="Avengers Assemble at:" class="btn btn-primary mb-2 float-right search-character-button">
                 <input type="submit" value="Search!" class="btn btn-danger mb-2 float-right search-character-button">
             </form>
         </div>
@@ -32,6 +31,9 @@
     </div>
     <div class="container" id="contentContainer">
         <h2>Avengers assemble at:</h2>
+    </div>
+    <div>
+        <a href="#">Avengers Assemble at :</a>
     </div>
     <script src="./main.js"></script>
     <!-- Optional JavaScript -->
